@@ -6,10 +6,10 @@ function saturdayFun(funActivity="roller-skate"){
   console.log(saturdayFun("bathe my dog"));
 
 const mondayWork=function(work="go to the office"){
-    return`This Monday, I will ${work}`;
+    return`This Monday, I will ${work}.`;
 }
 console.log(mondayWork());
-console.log(mondayWork("work from home"));
+console.log(mondayWork("work from home."));
 
 function wrapAdjective(flair = "*") {
         return function(adjective = "special") {
